@@ -40,7 +40,7 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#">Receitas</a>
+              <a class="nav__link" href="#recipes">Receitas</a>
             </li>
             <li>
               <a class="nav__link" href="#">Reservar uma mesa</a>
@@ -83,7 +83,66 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Receitas</h2>
+          <p class="recipes__subtitle">
+            Confira algumas receitas que coletamos para seu lanchinho caseiro:
+          </p>
+          <div class="recipes__videos">
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=eILvoGZsuVvI9wM0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <div class="recipes__video-caption">
+                <p>Receita Aeropress</p>
+                <p>~5 min</p>
+              </div>
+            </div>
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=9LvkdGHDL-FLYUpp"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <div class="recipes__video-caption">
+                <p>Receita de Prensa Francesa</p>
+                <p>~15 min</p>
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="reservation"></section>
       </main>
       <footer class="footer"></footer>

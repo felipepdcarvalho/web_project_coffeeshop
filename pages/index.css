@@ -119,20 +119,75 @@ li {
   align-items: flex-end;
 }
 .header__footer__paragraph_hours {
+  /*By. Felipe Carvalho*/
   margin: 0;
 }
 .header__footer__paragraph_address {
+  /*By. Felipe Carvalho*/
   display: flex;
   justify-content: flex-end;
   margin: 0;
 }
-/*
 .content {
+  color: #ffffff;
 }
-.recipies {
+.recipes {
+  /*Roteiro projeto etapa 2*/
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-size: cover;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.recipes__title {
+  /*Roteiro projeto etapa 2*/
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  /*By. Felipe Carvalho*/
+  margin: 100px 0 24px 80px;
+  max-width: 580px;
+}
+.recipes__subtitle {
+  /*Roteiro projeto etapa 2*/
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /*By. Felipe Carvalho*/
+  margin: 0 0 80px 80px;
+  max-width: 438px;
+}
+.recipes__videos {
+  /*By. Felipe Carvalho*/
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0 0 215px 0;
+}
+.recipes__video-item {
+}
+.recipes__iframe {
+}
+.recipes__video-caption {
+  /*Roteiro projeto etapa 2*/
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /*By. Felipe Carvalho*/
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0 0 0;
 }
 .reservation {
 }
 .footer {
 }
-*/
