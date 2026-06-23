@@ -140,38 +140,49 @@
         <section class="reservation" id="reservation">
           <h3 class="reservation__title">Reservar uma mesa</h3>
           <form class="reservation__form">
-            <div class="form__fieldset">
-              <label class="form__label" for="nome">Nome: *</label>
+            <div class="reservation__fieldset">
+              <label class="reservation__form__label" for="nome">Nome: *</label>
               <input
-                class="form__input"
+                class="reservation__form__input"
                 type="text"
                 id="nome"
                 placeholder="Nome"
               />
-              <label class="form__label" for="numeroConvidados"
+              <label class="reservation__form__label" for="numeroConvidados"
                 >Número de convidados: *</label
               >
               <input
-                class="form__input"
+                class="reservation__form__input"
                 type="number"
                 id="numeroConvidados"
                 placeholder="1-8"
               />
-              <label class="form__label" for="datahora">Data e hora: *</label>
-              <input class="form__input" type="datetime-local" id="datahora" />
-              <label class="form__label" for="email">Seu e-mail: *</label>
+              <label class="reservation__form__label" for="datahora"
+                >Data e hora: *</label
+              >
               <input
-                class="form__input"
+                class="reservation__form__input"
+                type="datetime-local"
+                id="datahora"
+              />
+              <label class="reservation__form__label" for="email"
+                >Seu e-mail: *</label
+              >
+              <input
+                class="reservation__form__input"
                 type="email"
                 id="email"
                 placeholder="email@email.com"
               />
-              <button class="form__button" type="submit">
+              <button class="reservation__form__button" type="submit">
                 Reservar uma mesa
               </button>
-              <div class="form__terms">
-                <input type="checkbox" class="form__terms__checkbox" />
-                <label class="form__terms__label"
+              <div class="reservation__form__terms">
+                <input
+                  type="checkbox"
+                  class="reservation__form__terms__checkbox"
+                />
+                <label class="reservation__form__terms__label"
                   >Eu concordo com os termos de uso</label
                 >
               </div>

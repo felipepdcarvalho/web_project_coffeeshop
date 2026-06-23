@@ -198,14 +198,16 @@ li {
 }
 .reservation__form {
 }
-.form__fieldset {
+.reservation__fieldset {
   /*By. Felipe Carvalho*/
   width: 385px;
-  margin: 0 0 120px 0;
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: column;
 }
-.form__label {
+.reservation__form__label {
   /*Roteiro projeto etapa 3*/
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
@@ -215,7 +217,7 @@ li {
   /*By. Felipe Carvalho*/
   margin: 0 0 8px 0;
 }
-.form__input {
+.reservation__form__input {
   /*Roteiro projeto etapa 3*/
   border-radius: 4px;
   font-family: "Inter", "Arial", sans-serif;
@@ -227,7 +229,7 @@ li {
   margin: 0 0 32px 0;
   padding: 15px 20px 15px 20px;
 }
-.form__button {
+.reservation__form__button {
   /*Roteiro projeto etapa 3*/
   border-radius: 4px;
   font-family: "Inter", "Arial", sans-serif;
@@ -243,14 +245,14 @@ li {
   margin: 0 0 32px 0;
   padding: 0;
 }
-.form__button:hover {
+.reservation__form__button:hover {
   opacity: 70%;
 }
-.form__terms {
+.reservation__form__terms {
   display: flex;
   justify-content: center;
 }
-.form__terms__checkbox {
+.reservation__form__terms__checkbox {
   /*Roteiro projeto etapa 3*/
   border-radius: 2px;
   /*By. Felipe Carvalho*/
@@ -259,7 +261,7 @@ li {
   margin: 0 12px 0 0;
   padding: 0;
 }
-.form__terms__label {
+.reservation__form__terms__label {
   /*Roteiro projeto etapa 3*/
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
