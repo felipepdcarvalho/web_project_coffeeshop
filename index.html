@@ -51,7 +51,7 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="span-accent">Café especial</span>
+          <span class="header__span-accent">Café especial</span>
           na biblioteca Triple Peaks
         </h1>
         <p class="header__description">
@@ -139,53 +139,58 @@
         </section>
         <section class="reservation" id="reservation">
           <h3 class="reservation__title">Reservar uma mesa</h3>
-          <form class="reservation__form">
-            <div class="reservation__fieldset">
-              <label class="reservation__form__label" for="nome">Nome: *</label>
+          <form class="reservation__form form">
+            <div class="form__fieldset">
+              <label class="form__label" for="nome">Nome: *</label>
               <input
-                class="reservation__form__input"
+                class="form__input"
                 type="text"
                 id="nome"
                 placeholder="Nome"
+                value="nome"
               />
-              <label class="reservation__form__label" for="numeroConvidados"
+              <label class="form__label" for="numeroConvidados"
                 >Número de convidados: *</label
               >
               <input
-                class="reservation__form__input"
+                class="form__input"
                 type="number"
                 id="numeroConvidados"
                 placeholder="1-8"
+                min="1"
+                max="8"
+                value="numerodeConvidados"
               />
-              <label class="reservation__form__label" for="datahora"
-                >Data e hora: *</label
-              >
+              <label class="form__label" for="datahora">Data e hora: *</label>
               <input
-                class="reservation__form__input"
+                class="form__input"
                 type="datetime-local"
                 id="datahora"
+                value="dataehora"
               />
-              <label class="reservation__form__label" for="email"
-                >Seu e-mail: *</label
-              >
+              <label class="form__label" for="email">Seu e-mail: *</label>
               <input
-                class="reservation__form__input"
+                class="form__input"
                 type="email"
                 id="email"
                 placeholder="email@email.com"
+                value="email"
               />
-              <button class="reservation__form__button" type="submit">
+              <button class="form__button" type="submit">
                 Reservar uma mesa
               </button>
-              <div class="reservation__form__terms">
+              <label
+                class="form__label form__label--checkbox"
+                for="checkbox-form"
+              >
                 <input
                   type="checkbox"
-                  class="reservation__form__terms__checkbox"
+                  class="form__checkbox"
+                  id="checkbox-form"
+                  value="checkbox-form"
                 />
-                <label class="reservation__form__terms__label"
-                  >Eu concordo com os termos de uso</label
-                >
-              </div>
+                Eu concordo com os termos de uso</label
+              >
             </div>
           </form>
         </section>
