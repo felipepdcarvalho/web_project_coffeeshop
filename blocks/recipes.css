@@ -1,0 +1,52 @@
+.recipes {
+  /*Roteiro projeto etapa 2*/
+  background-color: #0a2850;
+  background-image: url(../images/background_recipes.svg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 100px 0 215px 80px;
+}
+.recipes__title {
+  /*Roteiro projeto etapa 2*/
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  /*By. Felipe Carvalho*/
+  margin: 0;
+  max-width: 580px;
+}
+.recipes__subtitle {
+  /*Roteiro projeto etapa 2*/
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /*By. Felipe Carvalho*/
+  margin: 0 0 80px;
+  max-width: 438px;
+}
+.recipes__videos {
+  /*By. Felipe Carvalho*/
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+}
+.recipes__video-caption {
+  /*Roteiro projeto etapa 2*/
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /*By. Felipe Carvalho*/
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 24px 0 0;
+}

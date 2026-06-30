@@ -13,7 +13,6 @@
     />
     <meta name="author" content="Felipe Carvalho" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="icon" href="favicon.ico" type="image/ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -46,7 +45,7 @@
               <a class="nav__link" href="#reservation">Reservar uma mesa</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Contatos</a>
+              <a class="nav__link" href="#contacts">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -105,8 +104,8 @@
               >
               </iframe>
               <div class="recipes__video-caption">
-                <p>Receita Aeropress</p>
-                <p>~5 min</p>
+                <p class="recipes__video-caption">Receita Aeropress</p>
+                <p class="recipes__video-caption">~5 min</p>
               </div>
             </div>
             <div class="recipes__video-item">
@@ -131,8 +130,8 @@
               >
               </iframe>
               <div class="recipes__video-caption">
-                <p>Receita de Prensa Francesa</p>
-                <p>~15 min</p>
+                <p class="recipes__video-caption">Receita de Prensa Francesa</p>
+                <p class="recipes__video-caption">~15 min</p>
               </div>
             </div>
           </div>
@@ -147,7 +146,6 @@
                 type="text"
                 id="nome"
                 placeholder="Nome"
-                value="nome"
               />
               <label class="form__label" for="numeroConvidados"
                 >Número de convidados: *</label
@@ -159,22 +157,15 @@
                 placeholder="1-8"
                 min="1"
                 max="8"
-                value="numerodeConvidados"
               />
               <label class="form__label" for="datahora">Data e hora: *</label>
-              <input
-                class="form__input"
-                type="datetime-local"
-                id="datahora"
-                value="dataehora"
-              />
+              <input class="form__input" type="datetime-local" id="datahora" />
               <label class="form__label" for="email">Seu e-mail: *</label>
               <input
                 class="form__input"
                 type="email"
                 id="email"
                 placeholder="email@email.com"
-                value="email"
               />
               <button class="form__button" type="submit">
                 Reservar uma mesa
@@ -195,7 +186,34 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contacts">
+        <div class="footer__circle"></div>
+        <div class="footer__content">
+          <img class="footer__logo" src="./images/logo_coffeeshop_light.svg" />
+          <div class="footer__social">
+            <p class="footer__social-heading">Mídia social</p>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="./images/facebook_white.svg"
+                  alt="Logo do Facebook"
+                />
+                <a class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  class="footer__social-icon"
+                  src="./images/instagram_white.svg"
+                  alt="Logo do Instagram"
+                />
+                <a class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2026 Felipe Carvalho</p>
+      </footer>
     </div>
   </body>
 </html>

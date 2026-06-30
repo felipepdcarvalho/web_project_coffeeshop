@@ -1,0 +1,76 @@
+.form__fieldset {
+  /*By. Felipe Carvalho*/
+  width: 385px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+.form__label {
+  /*Roteiro projeto etapa 3*/
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /*By. Felipe Carvalho*/
+  margin: 0 0 8px 0;
+}
+.form__input {
+  /*Roteiro projeto etapa 3*/
+  border-radius: 4px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /*By. Felipe Carvalho*/
+  margin: 0 0 32px 0;
+  padding: 15px 20px 15px 20px;
+  box-sizing: border-box;
+}
+.form__button {
+  /*Roteiro projeto etapa 3*/
+  border-radius: 4px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+  color: white;
+  /*By. Felipe Carvalho*/
+  width: 385px;
+  height: 60px;
+  margin: 0 0 32px 0;
+  padding: 0;
+}
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__checkbox {
+  /*Roteiro projeto etapa 3*/
+  border-radius: 2px;
+  /*By. Felipe Carvalho*/
+  width: 20px;
+  height: 20px;
+  margin: 0 12px 0 0;
+  padding: 0;
+}
+.form__label {
+  /*Roteiro projeto etapa 3*/
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /*By. Felipe Carvalho*/
+  margin: 0 0 8px 0;
+}
+.form__label_checkbox {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
