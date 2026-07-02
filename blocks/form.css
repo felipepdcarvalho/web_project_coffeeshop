@@ -9,18 +9,14 @@
 }
 .form__label {
   /*Roteiro projeto etapa 3*/
-  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   /*By. Felipe Carvalho*/
   margin: 0 0 8px 0;
 }
 .form__input {
   /*Roteiro projeto etapa 3*/
   border-radius: 4px;
-  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -33,11 +29,8 @@
 .form__button {
   /*Roteiro projeto etapa 3*/
   border-radius: 4px;
-  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   background-color: #2f80ed;
   color: white;
   /*By. Felipe Carvalho*/
@@ -58,16 +51,6 @@
   height: 20px;
   margin: 0 12px 0 0;
   padding: 0;
-}
-.form__label {
-  /*Roteiro projeto etapa 3*/
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  /*By. Felipe Carvalho*/
-  margin: 0 0 8px 0;
 }
 .form__label_checkbox {
   margin: 0;

@@ -4,7 +4,6 @@
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
   /*By. Felipe Carvalho*/
-  min-height: 100vh;
   color: #000000;
   display: flex;
   flex-direction: column;
@@ -12,7 +11,6 @@
 }
 .reservation__title {
   /*Roteiro projeto etapa 3*/
-  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;

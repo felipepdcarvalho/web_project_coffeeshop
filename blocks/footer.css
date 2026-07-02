@@ -5,12 +5,12 @@
   /*By. Felipe Carvalho*/
   position: relative;
   overflow: hidden;
+  padding: 60px 80px;
 }
 .footer__content {
   /*By. Felipe Carvalho*/
   display: flex;
   justify-content: space-between;
-  padding: 60px 80px 0;
 }
 .footer__logo {
   /*By. Felipe Carvalho*/
@@ -31,11 +31,8 @@
 }
 .footer__social-heading {
   /*Roteiro projeto etapa 4*/
-  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
   /*By. Felipe Carvalho*/
   margin: 0 0 20px;
 }
@@ -56,11 +53,8 @@
 }
 .footer__social-link {
   /*Roteiro projeto etapa 4*/
-  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
   /*By. Felipe Carvalho*/
   list-style-type: none;
 }
@@ -70,12 +64,8 @@
 }
 .footer__copyright {
   /*Roteiro projeto etapa 4*/
-  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
   /*By. Felipe Carvalho*/
-  margin: 0;
-  padding: 108px 80px 60px;
+  margin: 108px 0 0;
 }
